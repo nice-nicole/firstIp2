@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".createAccount">
+    tools:context=".ui.createAccount">
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Create account"
+        android:text="Fill the form first"
         android:textSize="35sp"
         android:textStyle="bold"
         app:fontFamily="@font/lobster"

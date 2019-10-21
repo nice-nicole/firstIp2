@@ -11,23 +11,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Contacts">
+        <activity android:name=".ui.UserDetailActivity"></activity>
+        <activity android:name=".ui.viewUsers" />
+        <activity android:name=".ui.New_activity" />
+        <activity android:name=".ui.Contacts">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.ViewProfile"></meta-data>
+                android:value="com.example.firstip.ui.ViewProfile" />
         </activity>
-        <activity android:name=".ViewProfile">
+        <activity android:name=".ui.ViewProfile">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.createAccount"></meta-data>
+                android:value="com.example.firstip.ui.createAccount" />
         </activity>
-        <activity android:name=".createAccount">
+        <activity android:name=".ui.createAccount">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.MainActivity"></meta-data>
+                android:value="com.example.firstip.ui.MainActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:theme="@style/NoActionBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

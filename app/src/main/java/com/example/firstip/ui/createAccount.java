@@ -1,4 +1,4 @@
-package com.example.firstip;
+package com.example.firstip.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
-import org.w3c.dom.Text;
+import com.example.firstip.R;
 
 public class createAccount extends AppCompatActivity {
 

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ImageView
         android:id="@+id/img"
@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Welcome on our chat App!"
+        android:text="Welcome on our Application!"
         android:textColor="#F8F5F5"
         android:textSize="50sp"
         app:fontFamily="@font/lobster" />
@@ -27,7 +27,7 @@
         android:id="@+id/createAcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="create account"
+        android:text="Start exploring..."
         android:layout_alignParentBottom="true"
         android:background="@color/colorAccent"
         android:textColor="@color/textColor"

@@ -1,4 +1,4 @@
-package com.example.firstip;
+package com.example.firstip.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.firstip.R;
 
 public class ViewProfile extends AppCompatActivity {
 private TextView username;
