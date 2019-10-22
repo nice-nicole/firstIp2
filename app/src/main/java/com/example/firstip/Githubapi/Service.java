@@ -6,6 +6,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface Service{
-    @GET("/search/users?q=location:bujumbura")
+    @GET("/search/users?q=location:kigali")
     Call<ItemResponse>getItems();
         }

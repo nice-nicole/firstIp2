@@ -34,7 +34,7 @@ private Button viewContacts;
         viewContacts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToPage4= new Intent(ViewProfile.this, Contacts.class);
+                Intent goToPage4= new Intent(ViewProfile.this, New_activity.class);
                 startActivity(goToPage4);
             }
         });
