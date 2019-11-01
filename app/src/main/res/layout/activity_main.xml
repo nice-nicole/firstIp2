@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.MainActivity">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.MainActivity"
+android:background="@drawable/news1">
 
-    <ImageView
-        android:id="@+id/img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="0dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ip4" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Welcome on our Application!"
-        android:textColor="#F8F5F5"
-        android:textSize="50sp"
-        app:fontFamily="@font/lobster" />
+        android:id="@+id/appNameTextView"
+        android:text="News board.. \n Hope you enjoy..!"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorTextIcons"
+        android:textSize="60sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:background="@color/colorTextIcons"
+        android:layout_above="@id/findNewsbutton"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Enter Zip Code"
+        android:layout_centerHorizontal="true"/>
+
 
     <Button
-        android:id="@+id/createAcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start exploring..."
-        android:layout_alignParentBottom="true"
+        android:text="Look for some news"
+        android:id="@+id/findNewsbutton"
         android:background="@color/colorAccent"
-        android:textColor="@color/textColor"
-        android:textSize="20sp"
-        android:textStyle="italic"
-        app:fontFamily="@font/lobster" />
+        android:textColor="@color/colorTextIcons"
+        android:visibility="visible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
 </RelativeLayout>

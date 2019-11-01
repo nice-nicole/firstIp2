@@ -15,24 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.UserDetailActivity"></activity>
-        <activity android:name=".ui.viewUsers" />
-        <activity android:name=".ui.New_activity" />
-        <activity android:name=".ui.Contacts">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.ui.ViewProfile" />
-        </activity>
-        <activity android:name=".ui.ViewProfile">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.ui.createAccount" />
-        </activity>
-        <activity android:name=".ui.createAccount">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.firstip.ui.MainActivity" />
-        </activity>
+        <activity android:name=".ui.NewDetailActivity" />
+        <activity android:name=".ui.NewsActivity" />
+
         <activity
             android:name=".ui.MainActivity"
             android:theme="@style/NoActionBarTheme">
